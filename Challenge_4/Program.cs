@@ -21,7 +21,7 @@ namespace Challenge_4
             string firstName = fullName.Substring(0, nameSeperation);
             Console.WriteLine($"Forename: {firstName}");
 
-            string lastName = fullName.Substring(nameSeperation, ((fullName.Length)-nameSeperation  ) );
+            string lastName = fullName.Substring(nameSeperation + 1, ((fullName.Length)-nameSeperation - 1 ) );
             Console.WriteLine($"Surname: {lastName}");
         }
     }

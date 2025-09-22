@@ -15,7 +15,7 @@ namespace Challenge_3
             string cityOne = Console.ReadLine();
             string cityTwo = Console.ReadLine();
             
-            // The strings are manipulated for the output
+            // The strings are manipulated for the output, and concatenated
             string result = (cityOne.Substring(0,4) + "-" + cityTwo.Substring(0,4)).ToUpper();
             Console.WriteLine($"Result: {result}");
         }

@@ -16,7 +16,10 @@ namespace Challenge_2
             Console.Write("Enter your surname: ");
             string userSurname = Console.ReadLine();
 
+            // First character is extracted and stored in variable initial
             char initial = userForename[0];
+
+            // The first character and surname are concatenated,space added to seperate and converted to uppercase
             string fullname = (initial + " " + userSurname).ToUpper();
 
             // The variable 'fullname' is printed out the user
